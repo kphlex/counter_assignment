@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(172, 178, 196);
+    font-family: 'Mynerve', cursive;
+}
+
+h1, p {
+    color: azure;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+.container {
+    padding: 25px;
+    border: 5px solid rgb(43, 107, 217);
+    border-radius: 10px;
+    background-color: black;
+}
+
+.btnDiv {
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 20px;
+}
